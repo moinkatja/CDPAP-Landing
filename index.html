@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" lang="en">
+        <title>CDPAP Landing</title>
+
+        <!--  --- Stylesheet --- -->
+
+        <link rel = "stylesheet" type="text/css" href="src/css/style.css">
+
+         <!--  --- Scripts --- -->
+         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <!--  --- Header-Banner --- -->
+
+            <header id="header-banner"> <img id="logo" src="src/img/logo.png" alt="Logo CDPAP"> </header>
+            
+            <!--  --- Home-Section --- -->
+
+            <section id="home"> 
+                <h1>The Fastest and Easiest Way to enroll in CDPAP Program </h1>
+                <h2 id="heading-explanation">We are the Experts</h2>
+                <img id="leute-img" src="src/img/people.png" alt="Old people">
+
+                <!--  --- Form-info --- -->
+                <div id="form-info">
+                    <h2>About the Consumer Directed Personal Assistance Program (CDPAP) </h2>
+                    <ul class="ball">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, assumenda.</li>
+                    </ul>
+                </div>
+
+                <!--  --- Form --- -->
+                <form name="form" id="home-form">
+                    <h3>Name <sup>*</sup></h3>
+                    <input type="text" name="name" required>
+                    <h3>Surname <sup>*</sup></h3>
+                    <input type="text" name="surname" required>
+                    <h3>E-mail <sup>*</sup></h3>
+                    <input type="email" name="email" required>
+                    <h3>Phone Number</h3>
+                    <input type="text" name="phone">
+                    <button class="btn" id="talk-btn">Talk to CDPAP Expert</button>
+                </form>
+            
+            </section>
+
+            <!--  --- "What is it" Section --- -->
+
+            <section class="section" id="whatisit-section">
+            
+                <div class="col">
+                    <h2>What is CDPAP and how does it work?</h2>
+                    The consumer directed personal assistance program is a medical program that pays your friend, family memeber or neighbour to take care of you. <br><br>
+                    <li>Strangers do not care for you <b>the same way loved one do </b></li>
+                    <li>You can feel <b>self and secure</b></li>
+                    <li><b>100% costs </b>are covered</li>
+                </div>
+                <div class="col">
+                    <img class="picture" id="senior-img" src="src/img/senior.jpg" alt="Pictures">
+                </div>
+                <div class="col">
+                    <h2>Why enroll with CDPAP today?</h2>
+                    Our specialists have years of experience making sure you enroll as soon as possible. <br><br>
+                    <li><b>No paperwork</b> or complicated procedures</li>
+                    <li>We will guide you through <b>every step</b> of the process</li>
+                    <li>We have helped <b>thousands of patients</b> enroll in CDPAP </li>
+                </div>
+                <div class="col">
+                    <img class="picture" id="bedroom-img" src="src/img/bedroom.jpg" alt="Pictures">
+                </div>
+            </section>
+
+            <!--  --- "How it works" Section --- -->
+        
+            <section class="section" id="howitworks-section">
+                <h1>How our CDPAP Enrollment works</h1>
+                <article>
+                    <div class="col3"><img class="icon" src="src/img/form.png" alt="Form"><h3>Submit our contact form</h3> We can't help you unless you take the first step. Our form at the top of the page is the best way to contact us. </div>
+                    <div class="col3"><img class="icon" src="src/img/processed.png" alt="Form"><h3>We process your application</h3>We match you up with a provider who will work on your application from start to finish, making sure your enrollment is smooth and fast.</div>
+                    <div class="col3"><img class="icon" src="src/img/heart.png" alt="Form"><h3>You get care from a loved one!</h3>Once you have benn approved, your personal assistant will start to get paid immediately.</div>
+                </article>
+            </section>
+
+            <!--  --- "Enroll" Section --- -->
+
+            <section class="section" id="enroll-section">
+                <h1>Get the loving care you deserve</h1> 
+                <button id="enroll-btn" class="btn">Enroll for free today</button>
+            </section>
+
+            <!-- ---Footer--- -->
+            <footer>
+                All rights reserved | Icons by <a href="https://www.icons8.de" target="_blank">icons8</a> | Privacy Policy | Terms of Service
+            </footer>
+        </div>
+    
+        <script type="text/javascript">
+            // Smooth Scroll 
+            $(function() {
+                $('#enroll-btn').click(function() {
+                    $("body,html").animate({
+				    scrollTop:0
+			        }, 1000);
+			    return false;
+                });
+            });
+        </script>  
+    </body>
+</html>
