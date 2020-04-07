@@ -192,9 +192,10 @@ section li {
 
 .ball li:before {
     content: "";
+    margin-top: 0.3rem;
     width: 20px;
     height: 20px;
-    border-radius: 30%;
+    border-radius: 50%;
     background: #69b696; 
     position: absolute;
     top: 1px;
